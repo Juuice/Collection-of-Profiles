@@ -44,3 +44,12 @@ This will target next target, cast sheep then go back to your last target.
 /script TargetNearestEnemy();  
 /cast Polymorph  
 /script TargetLastTarget()  
+
+
+I use this alternative sheep macro, the one you posted is not working for me at least.
+
+/script TargetNearestEnemy();
+/stopcasting
+/cast Polymorph  
+/emote polymorphs %t.       //this is just to add some roleplay to the macro xD
+/script TargetLastTarget()
